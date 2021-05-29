@@ -100,7 +100,7 @@ function ready() {
 
 function loginEvent(event)
 {
-	console.log("user login event called")
+	console.log("user login event called....")
 	var mobileNo = document.getElementsByName('mobileNo')[0].value
 	console.log("mobile No "+mobileNo)
 	var password = document.getElementsByName('password')[0].value
