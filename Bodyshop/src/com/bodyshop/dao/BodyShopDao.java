@@ -36,7 +36,7 @@ public class BodyShopDao {
 			em.persist(register);
 			tx.commit();
 		} catch (Exception e) {
-			logger.error("exception in insert" , e);
+			logger.error("exception in insert..........." , e);
 			registerStaus = false;
 		} finally {
 			em.close();
