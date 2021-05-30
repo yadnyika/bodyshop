@@ -24,7 +24,7 @@
 <meta name="author" content="Colorlib">
 <meta name="keywords" content="Colorlib Templates">
 
-<title>BodyShop</title>
+<title>BodyShop Welcome</title>
 <!-- Icons font CSS-->
 <link href="vendor/mdi-font/css/material-design-iconic-font.min.css"
 	rel="stylesheet" media="all">
@@ -203,13 +203,13 @@ body {
 			<div class="card card-4">
 				<div class="card-body">
 
-					<h2 class="title">Welcome <%=userName %> </h2>
+					<h2 class="title">Welcome To BodyShop  <%=userName %> </h2>
 					
 					<section class="container content-section">
 						<h2 class="section-header">Cosmatics</h2>
 						<div class="shop-items">
 							<%
-								for (Product p1 : products) {
+								for (Product p1 : products) { 
 							%>
 							<div class="shop-item">
 								<span class="shop-item-title"><%=p1.getProductName()%></span> <img
