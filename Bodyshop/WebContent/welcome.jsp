@@ -203,7 +203,7 @@ body {
 			<div class="card card-4">
 				<div class="card-body">
 
-					<h2 class="title">Welcome <%=userName %> </h2>
+					<h2 class="title">Welcome  <%=userName %> </h2>
 					
 					<section class="container content-section">
 						<h2 class="section-header">Cosmatics</h2>
