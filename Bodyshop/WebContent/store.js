@@ -161,7 +161,7 @@ function loginEvent(event)
 	    }
 	    else
 	    	{
-	    	console.log("somthing went wrong")
+	    	console.log("somthing went wrong..")
 	    	}
 	    }
 	xhr.send();
