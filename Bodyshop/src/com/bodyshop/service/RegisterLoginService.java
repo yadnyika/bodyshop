@@ -30,7 +30,8 @@ public class RegisterLoginService {
 		RegisterPOJO rPojo=bodyShop.getLoginDetails(pojo);
 		if(rPojo!=null)
 		{
-			message="User Login Successfully...";
+			//please dont changed the msg logic is depend on this msg.
+			message="User Login Successfully";
 		}
 		else
 		{
